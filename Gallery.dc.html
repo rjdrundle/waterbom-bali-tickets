@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Waterbom Bali Photo Gallery 2026 — Slides, Park, Food & Vibes in Kuta</title>
+<meta name="description" content="Photo gallery of Waterbom Bali, Asia's #1 water park in Kuta. See the slides, lazy river, tropical gardens, food and the whole vibe before you book your tickets online.">
+<meta name="keywords" content="Waterbom Bali photos, Waterbom Bali gallery, Waterbom Bali pictures, Waterbom Bali park images, Waterbom Bali slides photos, Kuta water park gallery">
+<meta property="og:title" content="Waterbom Bali Photo Gallery 2026">
+<meta property="og:description" content="See the slides, gardens, food and vibe of Asia's #1 water park in Kuta.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageGallery","name":"Waterbom Bali Photo Gallery","about":{"@type":"TouristAttraction","name":"Waterbom Bali","address":{"@type":"PostalAddress","addressLocality":"Kuta","addressRegion":"Bali","addressCountry":"ID"}}}</script>
+<style>
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Space Grotesk',system-ui,sans-serif;background:#FFF3E0;color:#12112B;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:#FF3D7F;text-decoration:none}a:hover{color:#12112B}::selection{background:#FFD23F}
+  @keyframes blob{0%,100%{border-radius:42% 58% 63% 37%/42% 44% 56% 58%;transform:rotate(0)}50%{border-radius:58% 42% 38% 62%/58% 63% 37% 42%;transform:rotate(20deg)}}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+</style>
+</helmet>
+
+<div style="position:relative;width:100%;overflow:hidden">
+  <nav style="position:sticky;top:0;z-index:900;background:rgba(255,243,224,.9);backdrop-filter:blur(10px);border-bottom:3px solid #12112B;display:flex;align-items:center;justify-content:space-between;padding:12px 22px;gap:16px;flex-wrap:wrap">
+    <a href="Waterbom 2.0.dc.html" style="display:flex;align-items:center;gap:10px;color:#12112B"><span style="width:34px;height:34px;background:#12D6DF;border:2.5px solid #12112B;border-radius:50%;display:grid;place-items:center;font-size:18px;box-shadow:2px 2px 0 #12112B">🌊</span><span style="font-family:'Unbounded';font-weight:900;font-size:20px;letter-spacing:-.02em">WATERBOM<span style="color:#FF3D7F">.</span></span></a>
+    <div style="display:flex;align-items:center;gap:18px;font-weight:600;font-size:14px;flex-wrap:wrap"><a href="Tickets.dc.html" style="color:#12112B">Tickets</a><a href="Rides.dc.html" style="color:#12112B">Rides</a><a href="Gallery.dc.html" style="color:#FF3D7F">Gallery</a><a href="Promo Codes.dc.html" style="color:#12112B">Promo codes</a><a href="Plan Your Visit.dc.html" style="color:#12112B">Plan visit</a><a href="About Waterbom Bali.dc.html" style="color:#12112B">About</a><a href="FAQ.dc.html" style="color:#12112B">FAQ</a></div>
+    <a href="Tickets.dc.html#book" style="background:#FF3D7F;color:#fff;border:2.5px solid #12112B;border-radius:999px;padding:10px 18px;font-family:'Unbounded';font-weight:800;font-size:13px;box-shadow:3px 3px 0 #12112B">GET TICKETS</a>
+  </nav>
+
+  <header style="position:relative;background:radial-gradient(120% 120% at 20% 0%,#12D6DF 0%,#12D6DF 42%,#0FB6C4 100%);border-bottom:4px solid #12112B;padding:56px 22px 64px;overflow:hidden">
+    <div style="position:absolute;width:170px;height:170px;background:#FF3D7F;top:16px;right:-20px;animation:blob 17s ease-in-out infinite;opacity:.85"></div>
+    <div style="position:relative;max-width:900px;margin:0 auto;text-align:center;z-index:2">
+      <span style="display:inline-block;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:6px 16px;font-family:'Space Mono';font-weight:700;font-size:13px;box-shadow:3px 3px 0 #12112B">📸 THE GALLERY</span>
+      <h1 style="font-family:'Unbounded';font-weight:900;font-size:clamp(38px,7vw,84px);line-height:.92;letter-spacing:-.035em;margin:16px 0 0;color:#12112B;text-shadow:4px 4px 0 #fff">A WHOLE VIBE</h1>
+      <p style="max-width:520px;margin:18px auto 0;font-size:18px;font-weight:500;color:#0a3c40">Slides, gardens, food and sun-soaked good times. Take a look, then come make your own memories.</p>
+    </div>
+  </header>
+
+  <section style="padding:52px 22px;max-width:1240px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;grid-auto-flow:dense;gap:16px">
+      <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="19">
+        <div style="grid-column:span {{ t.cspan }};grid-row:span {{ t.rspan }};position:relative;border:3px solid #12112B;border-radius:22px;overflow:hidden;box-shadow:5px 5px 0 #12112B;background:#EEF7F8">
+          {{ t.imgEl }}
+          <span style="position:absolute;bottom:10px;left:10px;background:{{ t.accent }};color:#12112B;border:2px solid #12112B;border-radius:999px;padding:3px 11px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">{{ t.label }}</span>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <section style="background:#FF3D7F;border-top:4px solid #12112B;border-bottom:4px solid #12112B;padding:52px 22px;text-align:center;color:#fff">
+    <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(24px,4vw,42px);letter-spacing:-.03em;margin:0 0 12px;text-shadow:3px 3px 0 #12112B">SEEN ENOUGH? DIVE IN.</h2>
+    <p style="font-size:16px;font-weight:500;color:#ffe3ee;margin:0 auto 22px;max-width:460px">Book online, apply a promo code, and make the next photos your own.</p>
+    <a href="Tickets.dc.html#book" style="display:inline-block;background:#FFD23F;color:#12112B;border:3px solid #12112B;border-radius:999px;padding:15px 32px;font-family:'Unbounded';font-weight:800;font-size:16px;box-shadow:5px 5px 0 #12112B;animation:bob 3s ease-in-out infinite">GET MY TICKETS →</a>
+  </section>
+
+  <footer style="background:#12112B;color:#fff;border-top:4px solid #12112B;padding:48px 22px 36px">
+    <div style="max-width:1080px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:26px">
+      <div><div style="font-family:'Unbounded';font-weight:900;font-size:26px">WATERBOM<span style="color:#12D6DF">.</span></div><p style="max-width:300px;color:#c7c4e0;font-weight:500;margin:10px 0 0">Official Waterbom Bali e-tickets, promo codes and the full guide to Asia's #1 water park in Kuta.</p></div>
+      <div style="display:flex;gap:44px;flex-wrap:wrap">
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">TICKETS</span><a href="Tickets.dc.html" style="color:#fff">Prices</a><a href="Promo Codes.dc.html" style="color:#fff">Promo codes</a><a href="Packages.dc.html" style="color:#fff">Packages</a></div>
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">EXPLORE</span><a href="Rides.dc.html" style="color:#fff">Rides</a><a href="Gallery.dc.html" style="color:#fff">Gallery</a><a href="Plan Your Visit.dc.html" style="color:#fff">Plan visit</a><a href="Reviews.dc.html" style="color:#fff">Reviews</a></div>
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="FAQ.dc.html" style="color:#fff">FAQ</a><a href="Contact.dc.html" style="color:#fff">Contact</a><a href="Terms.dc.html" style="color:#fff">Terms</a></div>
+      </div>
+    </div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  tiles = [
+    {src:'uploads/waterbom-park-aerial.webp', alt:'Aerial view of Waterbom Bali water park slides and tropical gardens in Kuta', label:'THE PARK', cspan:2, rspan:2, accent:'#FFD23F'},
+    {src:'uploads/waterbom-twin-racers.webp', alt:'Two guests racing head-first down the green Twin Racers mat slides at Waterbom Bali', label:'TWIN RACERS', cspan:2, rspan:1, accent:'#12D6DF'},
+    {src:'uploads/waterbom-flowrider.webp', alt:'Surfer riding the FlowRider standing wave at Waterbom Bali', label:'FLOWRIDER', cspan:2, rspan:1, accent:'#FF3D7F'},
+    {src:'uploads/waterbom-constrictor.webp', alt:'Riders inside the orange Constrictor water slide tube at Waterbom Bali', label:'CONSTRICTOR', cspan:1, rspan:1, accent:'#FFD23F'},
+    {src:'uploads/waterbom-boomerang-raft.webp', alt:'Four friends splashing down a raft slide on a yellow tube at Waterbom Bali', label:'RAFT RIDE', cspan:1, rspan:1, accent:'#7C5CFF'},
+    {src:'uploads/waterbom-aquaplay-aerial.webp', alt:'Aerial view of the AquaPlay kids splash park and tipping bucket at Waterbom Bali', label:'AQUAPLAY', cspan:1, rspan:2, accent:'#12D6DF'},
+    {src:'uploads/waterbom-drop-capsule.webp', alt:'Guest bracing in the clear launch capsule of a drop slide at Waterbom Bali', label:'THE DROP', cspan:1, rspan:1, accent:'#FF3D7F'},
+    {src:'uploads/waterbom-gazebo.webp', alt:'Friends relaxing with fresh coconut drinks in a thatched gazebo at Waterbom Bali', label:'GAZEBOS', cspan:2, rspan:1, accent:'#FFD23F'},
+    {src:'uploads/waterbom-aquaplay-tower.webp', alt:'AquaPlay water tower tipping over kids play area framed by palm trees at Waterbom Bali', label:'SPLASH TOWER', cspan:1, rspan:1, accent:'#7C5CFF'},
+    {src:'uploads/waterbom-kids-tubes.webp', alt:'Kids posing with orange rubber tubes at Waterbom Bali', label:'GOOD TIMES', cspan:1, rspan:1, accent:'#12D6DF'},
+    {src:'uploads/waterbom-green-mat-slide.webp', alt:'Two friends laughing on an air-mat down a green slide at Waterbom Bali', label:'MAT SLIDE', cspan:2, rspan:1, accent:'#7C5CFF'},
+    {src:'uploads/waterbom-aquaplay-stairs.webp', alt:'Children climbing the stairs of the AquaPlay kids water play structure at Waterbom Bali', label:'KIDS PLAY', cspan:1, rspan:1, accent:'#FF3D7F'},
+    {src:'uploads/waterbom-kids-tube-slide.webp', alt:'Child sliding down a yellow enclosed tube slide at Waterbom Bali', label:'TUBE SLIDE', cspan:1, rspan:1, accent:'#12D6DF'},
+    {src:'uploads/waterbom-python-neon.webp', alt:'Rider with arms up floating through the glowing neon-lit Python dark tube slide at Waterbom Bali', label:'PYTHON', cspan:2, rspan:1, accent:'#FFD23F'},
+    {src:'uploads/waterbom-tower-slide-up.webp', alt:'Looking up at the twisting clear water slide and vine-covered tower at Waterbom Bali', label:'THE TOWER', cspan:1, rspan:2, accent:'#12D6DF'},
+    {src:'uploads/waterbom-lazy-river-jungle.webp', alt:'Guest floating on an orange tube down the jungle-lined lazy river at Waterbom Bali', label:'LAZY RIVER', cspan:1, rspan:1, accent:'#FF3D7F'},
+    {src:'uploads/waterbom-green-loops.webp', alt:'Looping green water slides twisting against a blue sky at Waterbom Bali', label:'GREEN LOOPS', cspan:1, rspan:1, accent:'#7C5CFF'},
+    {src:'uploads/waterbom-aquaplay-overhead.webp', alt:'Overhead view of the AquaPlay kids water play structure and tipping bucket at Waterbom Bali', label:'AQUAPLAY', cspan:2, rspan:1, accent:'#FFD23F'},
+    {src:'uploads/waterbom-tower-slide-palms.webp', alt:'Blue water slide winding down from a vine-covered tower framed by palm trees at Waterbom Bali', label:'JUNGLE SLIDE', cspan:1, rspan:1, accent:'#FF3D7F'},
+  ];
+  renderVals(){ return { tiles:this.tiles.map(t=>({...t, imgEl:React.createElement('img',{src:t.src,alt:t.alt,style:{width:'100%',height:'100%',objectFit:'cover',display:'block'}})})) }; }
+}
+</script>
+</body>
+</html>

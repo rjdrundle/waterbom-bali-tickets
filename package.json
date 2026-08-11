@@ -1,0 +1,16 @@
+{
+  "name": "waterbom-bali-tickets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Official Waterbom Bali ticket reseller site — static marketing pages with a Resend contact form.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  }
+}

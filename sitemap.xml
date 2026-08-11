@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://waterbom-bali.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://waterbom-bali.com/tickets</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://waterbom-bali.com/promo-codes</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://waterbom-bali.com/rides</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://waterbom-bali.com/packages</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://waterbom-bali.com/plan-your-visit</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://waterbom-bali.com/reviews</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waterbom-bali.com/gallery</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waterbom-bali.com/faq</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://waterbom-bali.com/guides</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waterbom-bali.com/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://waterbom-bali.com/contact</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://waterbom-bali.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

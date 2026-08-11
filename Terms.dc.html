@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Terms and Conditions | Waterbom Bali Tickets — DubaiTicketDeals.com</title>
+<meta name="description" content="Terms and conditions for booking Waterbom Bali tickets through DubaiTicketDeals.com. All sales are final — no refunds or cancellations. Read our booking, payment, discount code and liability policies.">
+<meta name="keywords" content="Waterbom Bali terms and conditions, DubaiTicketDeals terms, Waterbom Bali refund policy, Waterbom Bali cancellation policy, all sales final">
+<meta property="og:title" content="Terms and Conditions | Waterbom Bali Tickets">
+<meta property="og:description" content="Booking, payment, discount code and refund terms. All sales are final.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Space Grotesk',system-ui,sans-serif;background:#FFF3E0;color:#12112B;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  a{color:#FF3D7F;text-decoration:none}a:hover{color:#12112B}::selection{background:#FFD23F}
+</style>
+</helmet>
+
+<div style="position:relative;width:100%;overflow:hidden">
+  <nav style="position:sticky;top:0;z-index:900;background:rgba(255,243,224,.9);backdrop-filter:blur(10px);border-bottom:3px solid #12112B;display:flex;align-items:center;justify-content:space-between;padding:12px 22px;gap:16px;flex-wrap:wrap">
+    <a href="Waterbom 2.0.dc.html" style="display:flex;align-items:center;gap:10px;color:#12112B"><span style="width:34px;height:34px;background:#12D6DF;border:2.5px solid #12112B;border-radius:50%;display:grid;place-items:center;font-size:18px;box-shadow:2px 2px 0 #12112B">🌊</span><span style="font-family:'Unbounded';font-weight:900;font-size:20px;letter-spacing:-.02em">WATERBOM<span style="color:#FF3D7F">.</span></span></a>
+    <div style="display:flex;align-items:center;gap:18px;font-weight:600;font-size:14px;flex-wrap:wrap"><a href="Tickets.dc.html" style="color:#12112B">Tickets</a><a href="Rides.dc.html" style="color:#12112B">Rides</a><a href="Gallery.dc.html" style="color:#12112B">Gallery</a><a href="Promo Codes.dc.html" style="color:#12112B">Promo codes</a><a href="Packages.dc.html" style="color:#12112B">Packages</a><a href="Plan Your Visit.dc.html" style="color:#12112B">Plan visit</a><a href="About Waterbom Bali.dc.html" style="color:#12112B">About</a><a href="FAQ.dc.html" style="color:#12112B">FAQ</a></div>
+    <a href="Tickets.dc.html#book" style="background:#FF3D7F;color:#fff;border:2.5px solid #12112B;border-radius:999px;padding:10px 18px;font-family:'Unbounded';font-weight:800;font-size:13px;box-shadow:3px 3px 0 #12112B">GET TICKETS</a>
+  </nav>
+
+  <header style="background:#12112B;color:#fff;border-bottom:4px solid #12112B;padding:52px 22px 44px">
+    <div style="max-width:820px;margin:0 auto">
+      <span style="display:inline-block;background:#FFD23F;color:#12112B;border:2.5px solid #FFD23F;border-radius:999px;padding:6px 16px;font-family:'Space Mono';font-weight:700;font-size:13px">LEGAL INFORMATION</span>
+      <h1 style="font-family:'Unbounded';font-weight:900;font-size:clamp(34px,6vw,62px);line-height:.95;letter-spacing:-.03em;margin:16px 0 8px">Terms and Conditions</h1>
+      <p style="margin:0;color:#8b88a8;font-family:'Space Mono';font-size:14px">Last Updated: February 2026</p>
+    </div>
+  </header>
+
+  <section style="padding:48px 22px 64px;max-width:820px;margin:0 auto">
+    <div style="background:#FF3D7F;color:#fff;border:3px solid #12112B;border-radius:18px;padding:20px 22px;box-shadow:5px 5px 0 #12112B;margin-bottom:36px">
+      <div style="font-family:'Unbounded';font-weight:800;font-size:18px;margin-bottom:4px">ALL SALES ARE FINAL</div>
+      <p style="margin:0;font-weight:500;line-height:1.55">By completing a purchase, you acknowledge and agree that all sales are final. No refunds, cancellations, or exchanges are available once a booking has been confirmed and payment has been processed.</p>
+    </div>
+
+    <sc-for list="{{ sections }}" as="s" hint-placeholder-count="13">
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">{{ s.h }}</h2>
+      <sc-if value="{{ s.intro }}" hint-placeholder-val="x"><p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">{{ s.intro }}</p></sc-if>
+      <sc-for list="{{ s.blocks }}" as="b" hint-placeholder-count="1">
+        <sc-if value="{{ b.sub }}" hint-placeholder-val="x"></sc-if>
+        <sc-if value="{{ b.text }}" hint-placeholder-val="x"><p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">{{ b.text }}</p></sc-if>
+        <sc-if value="{{ b.list }}" hint-placeholder-val="x">
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">{{ b.sub }}</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <sc-for list="{{ b.list }}" as="li" hint-placeholder-count="3"><li>{{ li }}</li></sc-for>
+          </ul>
+        </sc-if>
+      </sc-for>
+    </sc-for>
+  </section>
+
+  <footer style="background:#12112B;color:#fff;border-top:4px solid #12112B;padding:48px 22px 36px">
+    <div style="max-width:1080px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:26px">
+      <div><div style="font-family:'Unbounded';font-weight:900;font-size:26px">WATERBOM<span style="color:#12D6DF">.</span></div><p style="max-width:300px;color:#c7c4e0;font-weight:500;margin:10px 0 0">Official Waterbom Bali e-tickets, promo codes and the full guide to Asia's #1 water park in Kuta.</p></div>
+      <div style="display:flex;gap:44px;flex-wrap:wrap">
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">TICKETS</span><a href="Tickets.dc.html" style="color:#fff">Prices</a><a href="Promo Codes.dc.html" style="color:#fff">Promo codes</a><a href="Packages.dc.html" style="color:#fff">Packages</a></div>
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">EXPLORE</span><a href="Rides.dc.html" style="color:#fff">Rides</a><a href="Gallery.dc.html" style="color:#fff">Gallery</a><a href="Plan Your Visit.dc.html" style="color:#fff">Plan visit</a><a href="Reviews.dc.html" style="color:#fff">Reviews</a></div>
+        <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="FAQ.dc.html" style="color:#fff">FAQ</a><a href="Contact.dc.html" style="color:#fff">Contact</a><a href="Terms.dc.html" style="color:#fff">Terms</a></div>
+      </div>
+    </div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900}}">
+class Component extends DCLogic {
+  sections = [
+    {h:'1. Company Information', intro:'DubaiTicketDeals is a company registered and licensed in the United Arab Emirates.', blocks:[
+      {text:'Trading Name: DubaiTicketDeals'},
+      {text:'Jurisdiction: United Arab Emirates'},
+      {text:'Website: www.dubaiticketdeals.com'},
+      {text:'Email: support@dubaiticketdeals.com'},
+    ]},
+    {h:'2. Acceptance of Terms', blocks:[
+      {text:'By accessing and using DubaiTicketDeals website and services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.'},
+    ]},
+    {h:'3. Booking and Payment', blocks:[
+      {sub:'3.1 Booking Process', list:[
+        'All bookings are subject to availability and confirmation by the tour operator',
+        'Prices are displayed in AED (United Arab Emirates Dirham) and include applicable taxes unless stated otherwise',
+        'You must provide accurate and complete information when making a booking',
+        'A booking is confirmed only when you receive a confirmation email from us',
+      ]},
+      {sub:'3.2 Service Charges', list:[
+        'Payment must be made in full at the time of booking',
+        'We accept major credit cards, debit cards, and other payment methods as displayed at checkout',
+        'A service fee of 3.5% + AED 2.00 is added to all transactions',
+        'All payments are processed securely through Stripe payment gateway',
+      ]},
+      {sub:'3.3 Ticket Delivery', text:'All tickets and vouchers are sent via email within 24 hours of successful payment confirmation.'},
+    ]},
+    {h:'4. Cancellations and Refunds', intro:'ALL SALES ARE FINAL', blocks:[
+      {text:'By completing a purchase on DubaiTicketDeals, you acknowledge and agree that all sales are final. No refunds, cancellations, or exchanges are available once a booking has been confirmed and payment has been processed.'},
+      {sub:'4.1 No Refund Policy', list:[
+        'All sales are final. Once a booking is confirmed and payment is processed, no refunds will be issued under any circumstances',
+        'No cancellations are refundable, regardless of when the cancellation request is made',
+        'No-shows, late arrivals, or failure to use purchased tickets or vouchers will not result in a refund',
+        'Service fees (3.5% + AED 2.00) are non-refundable in all cases',
+      ]},
+      {sub:'4.2 No Cancellations', list:[
+        'Bookings cannot be cancelled once confirmed. Please ensure all details are correct before completing your purchase',
+        'It is your responsibility to verify the tour date, time, number of guests, and any other booking details before payment',
+        'We strongly recommend reviewing your booking summary carefully at checkout',
+      ]},
+      {sub:'4.3 Exceptional Circumstances', list:[
+        'In the rare event that a tour operator cancels an activity due to force majeure, weather conditions, or operational reasons, we will work with the operator to offer an alternative date or experience where possible',
+        'Any resolution in such cases is at the sole discretion of the tour operator and DubaiTicketDeals',
+        'For enquiries regarding exceptional circumstances, contact us at support@dubaiticketdeals.com with your booking reference',
+      ]},
+      {sub:'4.4 Modifications', list:[
+        'Booking modifications are not possible.',
+        'No modification requests can be made after buying ticket. ',
+        "Additional charges may apply for modifications depending on the tour operator's policy",
+        'Modification requests are dealt with on a case-by-case basis, however due to the tickets being automatically created by the operator, do not handle modifications. ',
+      ]},
+    ]},
+    {h:'5. Discount Codes and Promotions', blocks:[
+      {list:[
+        'Discount codes are subject to terms and conditions specific to each promotion',
+        'Only one discount code can be used per booking unless explicitly stated',
+        'Discount codes cannot be combined with other offers or promotions',
+        'We reserve the right to cancel or modify promotions at any time',
+        'Fraudulent use of discount codes may result in booking cancellation without refund',
+      ]},
+    ]},
+    {h:'6. Customer Responsibilities', blocks:[
+      {list:[
+        'You must arrive at the tour location on time as specified in your booking confirmation',
+        'You are responsible for checking visa requirements and ensuring valid travel documents',
+        'You must comply with all health and safety requirements specified by tour operators',
+        'Children must be accompanied by an adult unless otherwise stated',
+        'You must inform us of any medical conditions or special requirements at the time of booking',
+      ]},
+    ]},
+    {h:'7. Liability and Insurance', intro:'Aggregator Disclaimer', blocks:[
+      {text:'DubaiTicketDeals operates solely as an aggregator and booking platform. We act as an intermediary between customers and third-party tour operators. We take no responsibility for any changes, modifications, alterations, or amendments that tour operators may make to their tickets, pricing, schedules, itineraries, inclusions, or services at any time and without prior notice.'},
+      {sub:'7.1 Role as Aggregator', list:[
+        'DubaiTicketDeals acts strictly as an intermediary and aggregator between customers and tour operators',
+        'Tour operators are solely responsible for the delivery, quality, and accuracy of their services, tickets, and experiences',
+        'We do not own, operate, or control any of the tours, activities, or experiences listed on our platform',
+        'Tour operators may change ticket prices, availability, schedules, inclusions, or terms at any time without prior notice, and DubaiTicketDeals bears no responsibility for such changes',
+      ]},
+      {sub:'7.2 Limitation of Liability', list:[
+        'We are not liable for injuries, losses, damages, or any claims arising from tours and activities',
+        'We are not responsible for any discrepancies between the tour listing on our platform and the actual experience provided by the tour operator',
+        'Our liability is limited to the total amount paid for the booking, excluding service fees',
+        'We strongly recommend purchasing comprehensive travel insurance',
+      ]},
+    ]},
+    {h:'8. Force Majeure', blocks:[
+      {text:'We are not liable for any failure to perform our obligations due to circumstances beyond our reasonable control, including but not limited to natural disasters, pandemics, civil unrest, government actions, or other force majeure events.'},
+    ]},
+    {h:'9. Intellectual Property', blocks:[
+      {list:[
+        'All content on DubaiTicketDeals website is owned by or licensed to us',
+        'You may not reproduce, distribute, or create derivative works without our written permission',
+        'Tour descriptions and images are provided by tour operators and remain their property',
+      ]},
+    ]},
+    {h:'10. Privacy and Data Protection', blocks:[
+      {text:'Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information in compliance with UAE data protection laws.'},
+    ]},
+    {h:'11. Governing Law', blocks:[
+      {text:'These Terms and Conditions are governed by and construed in accordance with the laws of the United Arab Emirates. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of the UAE.'},
+    ]},
+    {h:'12. Changes to Terms', blocks:[
+      {text:'We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services after changes constitutes acceptance of the modified terms.'},
+    ]},
+    {h:'13. Contact Information', intro:'For questions about these Terms and Conditions, please contact us:', blocks:[
+      {text:'Email: support@dubaiticketdeals.com'},
+    ]},
+  ];
+  renderVals(){ return { sections:this.sections }; }
+}
+</script>
+</body>
+</html>

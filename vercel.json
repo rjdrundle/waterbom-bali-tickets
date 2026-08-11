@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/Waterbom 2.0.dc.html" },
+    { "source": "/tickets", "destination": "/Tickets.dc.html" },
+    { "source": "/rides", "destination": "/Rides.dc.html" },
+    { "source": "/gallery", "destination": "/Gallery.dc.html" },
+    { "source": "/promo-codes", "destination": "/Promo Codes.dc.html" },
+    { "source": "/packages", "destination": "/Packages.dc.html" },
+    { "source": "/plan-your-visit", "destination": "/Plan Your Visit.dc.html" },
+    { "source": "/about", "destination": "/About Waterbom Bali.dc.html" },
+    { "source": "/reviews", "destination": "/Reviews.dc.html" },
+    { "source": "/faq", "destination": "/FAQ.dc.html" },
+    { "source": "/guides", "destination": "/Guides.dc.html" },
+    { "source": "/contact", "destination": "/Contact.dc.html" },
+    { "source": "/terms", "destination": "/Terms.dc.html" }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    }
+  ]
+}
