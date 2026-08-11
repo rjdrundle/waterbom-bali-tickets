@@ -23,15 +23,15 @@
 - Apply at secure checkout; one code per order.
 
 ## Pages
-- [Home](https://waterbom-bali.com/): Overview, rides, booking widget
-- [Tickets & prices](https://waterbom-bali.com/tickets): Full price table and secure booking
-- [Promo codes](https://waterbom-bali.com/promo-codes): Working discount codes and how to redeem
-- [Rides](https://waterbom-bali.com/rides): Every slide with thrill levels
-- [Packages](https://waterbom-bali.com/packages): Family, combo, group and cabana options
-- [Plan your visit](https://waterbom-bali.com/plan-your-visit): Hours, location, directions, best time
-- [Reviews](https://waterbom-bali.com/reviews): Ratings and guest experiences
-- [Gallery](https://waterbom-bali.com/gallery): Photos of the park, slides and food
-- [FAQ](https://waterbom-bali.com/faq): Complete help center
-- [Guides](https://waterbom-bali.com/guides): Tips and itineraries
-- [Contact](https://waterbom-bali.com/contact): Support and policies
-- [Terms](https://waterbom-bali.com/terms): Terms and conditions — all sales final, no refunds
+- [Home](https://waterbombalitickets.com/): Overview, rides, booking widget
+- [Tickets & prices](https://waterbombalitickets.com/tickets): Full price table and secure booking
+- [Promo codes](https://waterbombalitickets.com/promo-codes): Working discount codes and how to redeem
+- [Rides](https://waterbombalitickets.com/rides): Every slide with thrill levels
+- [Packages](https://waterbombalitickets.com/packages): Family, combo, group and cabana options
+- [Plan your visit](https://waterbombalitickets.com/plan-your-visit): Hours, location, directions, best time
+- [Reviews](https://waterbombalitickets.com/reviews): Ratings and guest experiences
+- [Gallery](https://waterbombalitickets.com/gallery): Photos of the park, slides and food
+- [FAQ](https://waterbombalitickets.com/faq): Complete help center
+- [Guides](https://waterbombalitickets.com/guides): Tips and itineraries
+- [Contact](https://waterbombalitickets.com/contact): Support and policies
+- [Terms](https://waterbombalitickets.com/terms): Terms and conditions — all sales final, no refunds

@@ -23,4 +23,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://waterbom-bali.com/sitemap.xml
+Sitemap: https://waterbombalitickets.com/sitemap.xml
