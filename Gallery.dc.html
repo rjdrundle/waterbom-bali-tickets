@@ -1,6 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="canonical" href="https://waterbombalitickets.com/gallery">
+  <meta property="og:image" content="https://waterbombalitickets.com/uploads/waterbom-park-aerial.webp">
+<style>
+.nav-burger{display:none;background:#fff;border:2.5px solid #12112B;border-radius:10px;width:44px;height:40px;cursor:pointer;align-items:center;justify-content:center;box-shadow:3px 3px 0 #12112B;padding:0;flex:0 0 auto}
+@media (max-width:768px){
+.m-grid2{grid-template-columns:1fr !important}
+.m-mosaic{grid-template-columns:repeat(2,1fr) !important;grid-auto-rows:150px !important}
+.m-mosaic>*{grid-column:span 1 !important;grid-row:span 1 !important}
+.nav-burger{display:inline-flex !important}
+nav{flex-wrap:wrap !important;gap:10px !important;padding:10px 14px !important;align-items:center !important}
+nav>a:first-child{order:0}
+nav>.nav-burger{order:1;margin-left:auto}
+nav>*{order:2}
+nav:not(.nav-open)>*:not(a:first-child):not(.nav-burger){display:none !important}
+nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-direction:column !important;align-items:flex-start !important;width:100% !important;gap:14px !important;font-size:16px !important}
+}
+@media (max-width:480px){
+.m-mosaic{grid-template-columns:1fr !important}
+}
+</style>
+<script>
+(function(){function e(n){if(n.__b)return;n.__b=1;var b=document.createElement('button');b.className='nav-burger';b.setAttribute('aria-label','Menu');b.innerHTML='<span style="display:block;width:20px;height:2.5px;background:#12112B;box-shadow:0 6px 0 #12112B,0 -6px 0 #12112B;border-radius:2px"></span>';b.addEventListener('click',function(ev){ev.stopPropagation();n.classList.toggle('nav-open');});n.appendChild(b);n.addEventListener('click',function(ev){if(ev.target.closest('a'))n.classList.remove('nav-open');});}function s(){document.querySelectorAll('nav').forEach(e);}if(document.readyState!=='loading')s();else document.addEventListener('DOMContentLoaded',s);new MutationObserver(s).observe(document.documentElement,{childList:true,subtree:true});})();
+</script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEC1PW1T9S"></script>
 <script>
@@ -10,9 +37,6 @@
 
   gtag('config', 'G-HEC1PW1T9S');
 </script>
-<link rel="icon" type="image/png" href="/uploads/waterbom-bali-favicon.png">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="./support.js"></script>
 </head>
 <body>
@@ -24,8 +48,6 @@
 <meta property="og:title" content="Waterbom Bali Photo Gallery 2026">
 <meta property="og:description" content="See the slides, gardens, food and vibe of Asia's #1 water park in Kuta.">
 <meta property="og:type" content="website">
-<link rel="canonical" href="https://waterbombalitickets.com/gallery">
-<meta property="og:image" content="https://waterbombalitickets.com/uploads/waterbom-park-aerial.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <script src="./image-slot.js"></script>
@@ -50,13 +72,13 @@
     <div style="position:absolute;width:170px;height:170px;background:#FF3D7F;top:16px;right:-20px;animation:blob 17s ease-in-out infinite;opacity:.85"></div>
     <div style="position:relative;max-width:900px;margin:0 auto;text-align:center;z-index:2">
       <span style="display:inline-block;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:6px 16px;font-family:'Space Mono';font-weight:700;font-size:13px;box-shadow:3px 3px 0 #12112B">📸 THE GALLERY</span>
-      <h1 style="font-family:'Unbounded';font-weight:900;font-size:clamp(38px,7vw,84px);line-height:.92;letter-spacing:-.035em;margin:16px 0 0;color:#12112B;text-shadow:4px 4px 0 #fff">Waterbom Bali Gallery</h1>
+      <h1 style="font-family:'Unbounded';font-weight:900;font-size:clamp(38px,7vw,84px);line-height:.92;letter-spacing:-.035em;margin:16px 0 0;color:#12112B;text-shadow:4px 4px 0 #fff">Waterbom Bali Photo Gallery</h1>
       <p style="max-width:520px;margin:18px auto 0;font-size:18px;font-weight:500;color:#0a3c40">Slides, gardens, food and sun-soaked good times. Take a look, then come make your own memories.</p>
     </div>
   </header>
 
   <section style="padding:52px 22px;max-width:1240px;margin:0 auto">
-    <div style="display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;grid-auto-flow:dense;gap:16px">
+    <div class="m-mosaic" style="display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;grid-auto-flow:dense;gap:16px">
       <sc-for list="{{ tiles }}" as="t" hint-placeholder-count="19">
         <div style="grid-column:span {{ t.cspan }};grid-row:span {{ t.rspan }};position:relative;border:3px solid #12112B;border-radius:22px;overflow:hidden;box-shadow:5px 5px 0 #12112B;background:#EEF7F8">
           {{ t.imgEl }}
@@ -81,7 +103,7 @@
         <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="/faq" style="color:#fff">FAQ</a><a href="/contact" style="color:#fff">Contact</a><a href="/terms" style="color:#fff">Terms</a></div>
       </div>
     </div>
-    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: August 2026</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a> — authorised Waterbom Bali ticket agent</span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
   </footer>
 </div>
 </x-dc>

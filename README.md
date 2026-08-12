@@ -8,7 +8,9 @@ Official Waterbom Bali ticket reseller marketing site, served as static HTML and
 - `support.js` / `image-slot.js` — runtime required by the `.dc.html` pages. Must be served at the same relative path.
 - `uploads/` — park photos (`.webp`) and hero video (`.mp4`). Must be served at `/uploads/...`.
 - `api/contact.js` — Vercel Serverless Function that sends the Contact page form via Resend.
-- `vercel.json` — clean URL rewrites (e.g. `/tickets` → `Tickets.dc.html`) and content-type headers for `robots.txt`, `sitemap.xml`, `llms.txt`.
+- `vercel.json` — clean URL rewrites (e.g. `/tickets` → `Tickets.dc.html`) and content-type headers for `robots.txt`, `sitemap.xml`, `llms.txt`, `favicon.svg`, `pricing.md`.
+- `favicon.svg` — site favicon.
+- `pricing.md` — machine-readable pricing file for AI agents.
 
 ## Local development
 
@@ -46,7 +48,7 @@ vercel --prod
 
 ## Notes
 
-- Internal page links still point to the literal `*.dc.html` filenames. The `vercel.json` rewrites also expose clean URLs (`/tickets`, `/contact`, etc.) so both work.
+- Internal page links use clean routes (`/tickets`, `/contact`, etc.).
 - The ticket checkout is handled entirely by the embedded TravelDesk widget (`https://embedded-widget.azurewebsites.net/traveldesk-widget.js`, key `c0d7479b-4467-4027-960e-6be70cd54fa2`, tour id `499`). No payment code lives in this repo.
-- Promo codes (`SPLASH20`, `NOCAP15`, `FIRSTDIP`) and AED prices shown on the site are currently placeholders/marketing copy. Confirm real values before launch.
+- Promo code `SPLASH5` gives 5% off. All prices shown are in USD and should be confirmed before launch.
 - If you add a `Content-Security-Policy`, allow the TravelDesk script origin `https://embedded-widget.azurewebsites.net` and any frame/connect origins the widget requires.

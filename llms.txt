@@ -10,16 +10,14 @@
 - Cashless: tap-to-pay Splash Band for all in-park purchases
 - Payment: 256-bit SSL, 3D-Secure (Visa, Mastercard, Amex); instant QR e-voucher
 
-## Ticket prices (2026, AED)
-- Single Day Pass — International: Adult 128.57, Child 101 | Resident: Adult 75.51, Child 66.33
-- Family Day Pass (2 adults + 2 children) — International 449 | Resident 265.31
-- Waterbom + Mason Elephant Park combo — International: Adult 183.67, Child 136.73
+## Ticket prices (2026, USD)
+- Single Day Pass — International: Adult $128.57, Child $101 | Resident: Adult $75.51, Child $66.33
+- Family Day Pass (2 adults + 2 children) — International $449 | Resident $265.31
+- Waterbom + Mason Elephant Park combo — International: Adult $183.67, Child $136.73
 - Children are ages 2–11; infants under 2 free. Resident rate requires valid ID.
 
-## Promo codes (2026)
-- SPLASH20 — 20% off entire order (best deal)
-- NOCAP15 — 15% off, no minimum
-- FIRSTDIP — 10% off first visit
+## Promo code (2026)
+- SPLASH5 — 5% off your entire order
 - Apply at secure checkout; one code per order.
 
 ## Pages
