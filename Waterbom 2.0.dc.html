@@ -322,22 +322,7 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
     </div>
   </sc-if>
 
-  <!-- CHECKOUT OVERLAY -->
-  <sc-if value="{{ checkoutOpen }}" hint-placeholder-val="{{ false }}">
-    <div onClick="{{ close }}" style="position:fixed;inset:0;z-index:1000;background:rgba(18,17,43,.55);backdrop-filter:blur(6px);display:flex;align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto">
-      <div onClick="{{ stop }}" style="width:100%;max-width:560px;background:#FFF3E0;border:4px solid #12112B;border-radius:30px;box-shadow:10px 10px 0 #12112B;overflow:hidden;margin:auto">
-        <div style="display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:3px solid #12112B;background:#12D6DF">
-          <div style="display:flex;gap:8px;align-items:center;font-family:'Space Mono';font-weight:700;font-size:13px">
-            <span style="{{ stepCartStyle }}">1 CART</span><span>›</span><span style="{{ stepSumStyle }}">2 REVIEW</span><span>›</span><span style="{{ stepDoneStyle }}">3 DONE</span>
-          </div>
-          <button onClick="{{ close }}" style="width:34px;height:34px;border:2.5px solid #12112B;background:#fff;border-radius:50%;font-size:18px;font-weight:800;cursor:pointer;line-height:1">✕</button>
-        </div>
-
-        <!-- STEP CART -->
-        <sc-if value="{{ isCart }}" hint-placeholder-val="{{ true }}">
-          <div style="padding:22px">
-            <h3 style="font-family:'Unbounded';font-weight:800;font-size:24px;margin:0 0 16px">Your cart 🛒</h3>
-            <sc-if value="{{ cartEmpty }}" hint-placeholder-val="{{ false }}"><p style="font-weight:600;color:#4a4763">Nothing here yet — go add a pass!</p></sc-if>
+  
             <div style="display:flex;flex-direction:column;gap:12px">
               <sc-for list="{{ items }}" as="i" hint-placeholder-count="2">
                 <div style="display:flex;align-items:center;gap:12px;background:#fff;border:2.5px solid #12112B;border-radius:16px;padding:12px 14px">
