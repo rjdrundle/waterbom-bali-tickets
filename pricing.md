@@ -2,7 +2,7 @@
 
 Official e-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (authorised Waterbom Bali ticket reseller) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 5% off the order total.
 
-Last updated: 2026-08-12. Prices are subject to change; final price is confirmed at checkout.
+Last updated: 2026-08-17. Prices are subject to change; final price is confirmed at checkout.
 
 ## Single Day Pass — International Visitors
 
