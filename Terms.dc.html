@@ -79,19 +79,199 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
       <p style="margin:0;font-weight:500;line-height:1.55">By completing a purchase, you acknowledge and agree that all sales are final. No refunds, cancellations, or exchanges are available once a booking has been confirmed and payment has been processed.</p>
     </div>
 
-    <sc-for list="{{ sections }}" as="s" hint-placeholder-count="13">
-      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">{{ s.h }}</h2>
-      <sc-if value="{{ s.intro }}" hint-placeholder-val="x"><p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">{{ s.intro }}</p></sc-if>
-      <sc-for list="{{ s.blocks }}" as="b" hint-placeholder-count="1">
-        <sc-if value="{{ b.sub }}" hint-placeholder-val="x"></sc-if>
-        <sc-if value="{{ b.text }}" hint-placeholder-val="x"><p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">{{ b.text }}</p></sc-if>
-        <sc-if value="{{ b.list }}" hint-placeholder-val="x">
-          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">{{ b.sub }}</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
-            <sc-for list="{{ b.list }}" as="li" hint-placeholder-count="3"><li>{{ li }}</li></sc-for>
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">1. Company Information</h2>
+      <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">DubaiTicketDeals is a company registered and licensed in the United Arab Emirates.</p>
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Trading Name: DubaiTicketDeals</p>
+        
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Jurisdiction: United Arab Emirates</p>
+        
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Website: www.dubaiticketdeals.com</p>
+        
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Email: support@dubaiticketdeals.com</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">2. Acceptance of Terms</h2>
+      
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">By accessing and using DubaiTicketDeals website and services, you accept and agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">3. Booking and Payment</h2>
+      
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">3.1 Booking Process</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>All bookings are subject to availability and confirmation by the tour operator</li><li>Prices are displayed in $(United Arab Emirates Dirham) and include applicable taxes unless stated otherwise</li><li>You must provide accurate and complete information when making a booking</li><li>A booking is confirmed only when you receive a confirmation email from us</li>
           </ul>
-        </sc-if>
-      </sc-for>
-    </sc-for>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">3.2 Service Charges</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>Payment must be made in full at the time of booking</li><li>We accept major credit cards, debit cards, and other payment methods as displayed at checkout</li><li>A service fee of 3.5% + $2.00 is added to all transactions</li><li>All payments are processed securely through Stripe payment gateway</li>
+          </ul>
+        
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">All tickets and vouchers are sent via email within 24 hours of successful payment confirmation.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">4. Cancellations and Refunds</h2>
+      <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">ALL SALES ARE FINAL</p>
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">By completing a purchase on DubaiTicketDeals, you acknowledge and agree that all sales are final. No refunds, cancellations, or exchanges are available once a booking has been confirmed and payment has been processed.</p>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">4.1 No Refund Policy</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>All sales are final. Once a booking is confirmed and payment is processed, no refunds will be issued under any circumstances</li><li>No cancellations are refundable, regardless of when the cancellation request is made</li><li>No-shows, late arrivals, or failure to use purchased tickets or vouchers will not result in a refund</li><li>Service fees (3.5% + $2.00) are non-refundable in all cases</li>
+          </ul>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">4.2 No Cancellations</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>Bookings cannot be cancelled once confirmed. Please ensure all details are correct before completing your purchase</li><li>It is your responsibility to verify the tour date, time, number of guests, and any other booking details before payment</li><li>We strongly recommend reviewing your booking summary carefully at checkout</li>
+          </ul>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">4.3 Exceptional Circumstances</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>In the rare event that a tour operator cancels an activity due to force majeure, weather conditions, or operational reasons, we will work with the operator to offer an alternative date or experience where possible</li><li>Any resolution in such cases is at the sole discretion of the tour operator and DubaiTicketDeals</li><li>For enquiries regarding exceptional circumstances, contact us at support@dubaiticketdeals.com with your booking reference</li>
+          </ul>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">4.4 Modifications</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>Booking modifications are not possible.</li><li>No modification requests can be made after buying ticket. </li><li>Additional charges may apply for modifications depending on the tour operator's policy</li><li>Modification requests are dealt with on a case-by-case basis, however due to the tickets being automatically created by the operator, do not handle modifications. </li>
+          </ul>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">5. Discount Codes and Promotions</h2>
+      
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B"></h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>Discount codes are subject to terms and conditions specific to each promotion</li><li>Only one discount code can be used per booking unless explicitly stated</li><li>Discount codes cannot be combined with other offers or promotions</li><li>We reserve the right to cancel or modify promotions at any time</li><li>Fraudulent use of discount codes may result in booking cancellation without refund</li>
+          </ul>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">6. Customer Responsibilities</h2>
+      
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B"></h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>You must arrive at the tour location on time as specified in your booking confirmation</li><li>You are responsible for checking visa requirements and ensuring valid travel documents</li><li>You must comply with all health and safety requirements specified by tour operators</li><li>Children must be accompanied by an adult unless otherwise stated</li><li>You must inform us of any medical conditions or special requirements at the time of booking</li>
+          </ul>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">7. Liability and Insurance</h2>
+      <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">Aggregator Disclaimer</p>
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">DubaiTicketDeals operates solely as an aggregator and booking platform. We act as an intermediary between customers and third-party tour operators. We take no responsibility for any changes, modifications, alterations, or amendments that tour operators may make to their tickets, pricing, schedules, itineraries, inclusions, or services at any time and without prior notice.</p>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">7.1 Role as Aggregator</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>DubaiTicketDeals acts strictly as an intermediary and aggregator between customers and tour operators</li><li>Tour operators are solely responsible for the delivery, quality, and accuracy of their services, tickets, and experiences</li><li>We do not own, operate, or control any of the tours, activities, or experiences listed on our platform</li><li>Tour operators may change ticket prices, availability, schedules, inclusions, or terms at any time without prior notice, and DubaiTicketDeals bears no responsibility for such changes</li>
+          </ul>
+        
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B">7.2 Limitation of Liability</h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>We are not liable for injuries, losses, damages, or any claims arising from tours and activities</li><li>We are not responsible for any discrepancies between the tour listing on our platform and the actual experience provided by the tour operator</li><li>Our liability is limited to the total amount paid for the booking, excluding service fees</li><li>We strongly recommend purchasing comprehensive travel insurance</li>
+          </ul>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">8. Force Majeure</h2>
+      
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">We are not liable for any failure to perform our obligations due to circumstances beyond our reasonable control, including but not limited to natural disasters, pandemics, civil unrest, government actions, or other force majeure events.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">9. Intellectual Property</h2>
+      
+      
+        
+        
+        
+          <h3 style="font-family:'Unbounded';font-weight:700;font-size:17px;margin:18px 0 8px;color:#12112B"></h3><ul style="font-size:16px;line-height:1.7;color:#3a3752;padding-left:22px;margin:0 0 12px">
+            <li>All content on DubaiTicketDeals website is owned by or licensed to us</li><li>You may not reproduce, distribute, or create derivative works without our written permission</li><li>Tour descriptions and images are provided by tour operators and remain their property</li>
+          </ul>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">10. Privacy and Data Protection</h2>
+      
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and protect your personal information in compliance with UAE data protection laws.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">11. Governing Law</h2>
+      
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">These Terms and Conditions are governed by and construed in accordance with the laws of the United Arab Emirates. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of the UAE.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">12. Changes to Terms</h2>
+      
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">We reserve the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on our website. Your continued use of our services after changes constitutes acceptance of the modified terms.</p>
+        
+      
+    
+      <h2 style="font-family:'Unbounded';font-weight:800;font-size:clamp(20px,3vw,26px);letter-spacing:-.02em;margin:34px 0 10px">13. Contact Information</h2>
+      <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 12px">For questions about these Terms and Conditions, please contact us:</p>
+      
+        
+        <p style="font-size:16px;line-height:1.65;color:#3a3752;margin:0 0 10px">Email: support@dubaiticketdeals.com</p>
+        
+      
+    
   </section>
 
   <footer style="background:#12112B;color:#fff;border-top:4px solid #12112B;padding:48px 22px 36px">
@@ -103,7 +283,7 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
         <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="/faq" style="color:#fff">FAQ</a><a href="/contact" style="color:#fff">Contact</a><a href="/terms" style="color:#fff">Terms</a></div>
       </div>
     </div>
-    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-08-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-09-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
   </footer>
 </div>
 </x-dc>

@@ -39,8 +39,8 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
 </script>
 <script src="./support.js"></script>
 
-<title>Contact Waterbom Bali Tickets — Booking Help, Groups, Refund &amp; Payment Policies</title>
-<meta name="description" content="Contact us for Waterbom Bali ticket bookings, group and event enquiries, and support. Plus our secure payment, refund and cancellation, and privacy policies. Official reseller — DubaiTicketDeals.com.">
+<title>Contact Waterbom Bali Tickets — Booking Help & Support</title>
+<meta name="description" content="Contact us for Waterbom Bali bookings, group enquiries and support, plus payment, refund and privacy policies. Official reseller DubaiTicketDeals.com.">
 <meta name="keywords" content="contact Waterbom Bali, Waterbom Bali booking help, Waterbom Bali group booking, Waterbom Bali refund policy, Waterbom Bali secure payment, Brands Select">
 <meta property="og:title" content="Contact Waterbom Bali Tickets & Policies">
 <meta property="og:description" content="Booking help, group enquiries, and our secure payment, refund and privacy policies.">
@@ -86,13 +86,13 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
       <div style="background:#fff;border:3px solid #12112B;border-radius:24px;padding:26px;box-shadow:6px 6px 0 #12112B">
         <h2 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0 0 16px">Send us a message</h2>
         <div style="display:flex;flex-direction:column;gap:12px">
-          <input value="{{ name }}" onChange="{{ onName }}" placeholder="Your name" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none">
-          <input value="{{ email }}" onChange="{{ onEmail }}" type="email" placeholder="Email address" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none">
-          <select value="{{ subject }}" onChange="{{ onSubject }}" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none;background:#fff;font-family:'Space Grotesk'"><option>Booking help</option><option>Group / event enquiry</option><option>Change my date</option><option>Something else</option></select>
-          <textarea value="{{ message }}" onChange="{{ onMessage }}" placeholder="How can we help?" rows="4" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none;resize:vertical"></textarea>
-          <button onClick="{{ submit }}" disabled="{{ sending }}" style="{{ btnStyle }}">{{ btnLabel }}</button>
-          <sc-if value="{{ sent }}" hint-placeholder-val="{{ false }}"><div style="background:#12D6DF;border-radius:12px;padding:12px 14px;font-weight:700;text-align:center">✅ Thanks! We'll be in touch within 24 hours.</div></sc-if>
-          <sc-if value="{{ error }}" hint-placeholder-val="x"><div style="background:#FF3D7F;color:#fff;border-radius:12px;padding:12px 14px;font-weight:700;text-align:center">{{ error }}</div></sc-if>
+          <input value="" onChange="(e)=&gt;this.setState({name:e.target.value})" placeholder="Your name" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none">
+          <input value="" onChange="(e)=&gt;this.setState({email:e.target.value})" type="email" placeholder="Email address" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none">
+          <select value="Booking help" onChange="(e)=&gt;this.setState({subject:e.target.value})" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none;background:#fff;font-family:'Space Grotesk'"><option>Booking help</option><option>Group / event enquiry</option><option>Change my date</option><option>Something else</option></select>
+          <textarea value="" onChange="(e)=&gt;this.setState({message:e.target.value})" placeholder="How can we help?" rows="4" style="border:2.5px solid #12112B;border-radius:12px;padding:13px 15px;font-size:15px;outline:none;resize:vertical"></textarea>
+          <button onClick="()=&gt;this.submit()" disabled="false" style="background:#FF3D7F;color:#fff;border:2.5px solid #12112B;border-radius:999px;padding:14px;font-family:'Unbounded';font-weight:800;font-size:15px;cursor:pointer;box-shadow:4px 4px 0 #12112B">SEND MESSAGE →</button>
+          
+          
           <p style="margin:2px 0 0;font-size:12px;color:#8b88a8;font-family:'Space Mono';text-align:center">🔒 Sent securely to our team. We never share your details.</p>
         </div>
       </div>
@@ -103,9 +103,15 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
     <div style="max-width:900px;margin:0 auto">
       <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(24px,4vw,40px);letter-spacing:-.03em;margin:0 0 24px;text-align:center">Our policies</h2>
       <div style="display:flex;flex-direction:column;gap:14px">
-        <sc-for list="{{ policies }}" as="p" hint-placeholder-count="4">
-          <div style="background:#1b1a3d;border:2px solid #2c2a4d;border-radius:16px;padding:20px 22px"><h3 style="font-family:'Unbounded';font-weight:800;font-size:17px;margin:0 0 7px;color:#12D6DF">{{ p.t }}</h3><p style="margin:0;color:#c7c4e0;line-height:1.55">{{ p.d }}</p></div>
-        </sc-for>
+        
+          <div style="background:#1b1a3d;border:2px solid #2c2a4d;border-radius:16px;padding:20px 22px"><h3 style="font-family:'Unbounded';font-weight:800;font-size:17px;margin:0 0 7px;color:#12D6DF">Secure payment</h3><p style="margin:0;color:#c7c4e0;line-height:1.55">All payments are processed over 256-bit SSL encryption with 3D-Secure authentication through trusted gateways (Visa, Mastercard, Amex). We never see or store your full card details.</p></div>
+        
+          <div style="background:#1b1a3d;border:2px solid #2c2a4d;border-radius:16px;padding:20px 22px"><h3 style="font-family:'Unbounded';font-weight:800;font-size:17px;margin:0 0 7px;color:#12D6DF">Instant e-voucher</h3><p style="margin:0;color:#c7c4e0;line-height:1.55">Once payment is confirmed, your QR e-voucher is emailed to you immediately. Present it on your phone at the gate — no printing required.</p></div>
+        
+          <div style="background:#1b1a3d;border:2px solid #2c2a4d;border-radius:16px;padding:20px 22px"><h3 style="font-family:'Unbounded';font-weight:800;font-size:17px;margin:0 0 7px;color:#12D6DF">Refund &amp; cancellation</h3><p style="margin:0;color:#c7c4e0;line-height:1.55">All sales are final. Tickets are non-refundable and non-cancellable once your purchase is complete — no refunds, exchanges or date changes. Please review your order and visit date carefully before paying.</p></div>
+        
+          <div style="background:#1b1a3d;border:2px solid #2c2a4d;border-radius:16px;padding:20px 22px"><h3 style="font-family:'Unbounded';font-weight:800;font-size:17px;margin:0 0 7px;color:#12D6DF">Privacy</h3><p style="margin:0;color:#c7c4e0;line-height:1.55">We collect only the details needed to process your booking and send your voucher. We never sell your data. See our full privacy statement or contact us with any questions.</p></div>
+        
       </div>
     </div>
   </section>
@@ -119,7 +125,7 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
         <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="/faq" style="color:#fff">FAQ</a><a href="/guides" style="color:#fff">Guides</a><a href="/contact" style="color:#fff">Contact</a><a href="/terms" style="color:#fff">Terms</a></div>
       </div>
     </div>
-    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-08-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-09-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
   </footer>
 </div>
 </x-dc>

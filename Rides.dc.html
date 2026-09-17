@@ -39,8 +39,8 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
 </script>
 <script src="./support.js"></script>
 
-<title>Waterbom Bali Rides & Slides Guide 2026 — All 17 Attractions With Thrill Levels & Height Limits</title>
-<meta name="description" content="Complete guide to every Waterbom Bali ride and water slide in 2026 with Drench, Thrill and Speed levels, minimum height requirements and full descriptions. Climax, Constrictor, Smashdown 2.0, Python, Twin Racers, The Drop, FlowRider, Zuluu Hill and more.">
+<title>Waterbom Bali Rides & Slides Guide 2026 — All 17 Rides</title>
+<meta name="description" content="Every Waterbom Bali ride and slide for 2026 with thrill levels and height limits. Climax, Constrictor, Smashdown 2.0, Python, FlowRider and more.">
 <meta name="keywords" content="Waterbom Bali rides, Waterbom Bali slides, Climax Waterbom, Constrictor, Smashdown 2.0, Python, Twin Racers, The Drop, Zuluu Hill, FlowRider, Waterbom Bali height requirements, best Waterbom Bali slide">
 <meta property="og:title" content="Waterbom Bali Rides & Slides Guide 2026 — Thrill Levels & Height Limits">
 <meta property="og:description" content="Every Waterbom Bali slide with Drench, Thrill and Speed ratings, minimum heights and descriptions.">
@@ -80,31 +80,311 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
   </header>
 
   <section style="padding:56px 22px;max-width:1240px;margin:0 auto">
-    <sc-for list="{{ groups }}" as="g" hint-placeholder-count="4">
+    
       <div style="margin:0 0 18px">
-        <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(26px,4vw,42px);letter-spacing:-.03em;margin:0 0 4px">{{ g.title }}</h2>
-        <p style="margin:0;font-size:16px;font-weight:500;color:#4a4763">{{ g.sub }}</p>
+        <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(26px,4vw,42px);letter-spacing:-.03em;margin:0 0 4px">😎 Mellow rides</h2>
+        <p style="margin:0;font-size:16px;font-weight:500;color:#4a4763">Easy-going fun for families, kids and anyone recharging between thrills.</p>
       </div>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-bottom:52px">
-        <sc-for list="{{ g.rides }}" as="r" hint-placeholder-count="4">
-          <div onClick="{{ r.open }}" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
             <div style="position:relative;height:200px;background:#EEF7F8">
-              {{ r.imgEl }}
-              <sc-if value="{{ r.noImg }}" hint-placeholder-val="{{ false }}"><image-slot id="{{ r.slotId }}" shape="rect" placeholder="drop a photo 📸"></image-slot></sc-if>
-              <span style="position:absolute;top:12px;left:12px;background:{{ g.accent }};color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">{{ r.tag }}</span>
+              <img src="uploads/waterbom-lazy-river-jungle.webp" alt="Lazy River at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#12D6DF;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MELLOW</span>
             </div>
             <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
-              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">{{ r.name }}</h3>
-              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">{{ r.short }}</p>
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Lazy River</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">Drift on a raft through lush tropical gardens.</p>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
-                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">{{ r.heightChip }}</span>
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">all ages</span>
                 <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
               </div>
             </div>
           </div>
-        </sc-for>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-aquaplay-aerial.webp" alt="AquaPlay at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#12D6DF;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MELLOW</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">AquaPlay</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 15m kids water playground with 6 slides and a giant dump bucket.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">all ages</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-aquaplay-stairs.webp" alt="Zuluu Hill at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#12D6DF;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MELLOW</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Zuluu Hill</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A kid-sized mountain of fun with six slides across two levels.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 80 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
       </div>
-    </sc-for>
+    
+      <div style="margin:0 0 18px">
+        <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(26px,4vw,42px);letter-spacing:-.03em;margin:0 0 4px">⚡ Moderate rides</h2>
+        <p style="margin:0;font-size:16px;font-weight:500;color:#4a4763">A step up — twists, tunnels and spins with a real kick.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-bottom:52px">
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-constrictor.webp" alt="Constrictor at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MODERATE</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Constrictor</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">250m wrapping through the tree canopy with near-90° turns.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 122 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-python-neon.webp" alt="Python at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MODERATE</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Python</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 6m-wide raft ride through the Python's belly — up to 4 people.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 100 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-tower-slide-palms.webp" alt="Tailspin at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MODERATE</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Tailspin</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 140m+ double bowl-and-flume with high-banking spins.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">all ages</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-kids-tube-slide.webp" alt="Mini Boomerang at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FFD23F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">MODERATE</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Mini Boomerang</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A kid-sized version of the iconic Boomerang wall.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 80 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    
+      <div style="margin:0 0 18px">
+        <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(26px,4vw,42px);letter-spacing:-.03em;margin:0 0 4px">🔥 Extreme rides</h2>
+        <p style="margin:0;font-size:16px;font-weight:500;color:#4a4763">The headline adrenaline machines. Send it.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-bottom:52px">
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-tower-slide-up.webp" alt="Climax at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Climax</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A trapdoor drop into an inverted loop at 2.5G. Will you?</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 120 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              
+              <image-slot id="r-smash" shape="rect" placeholder="drop a photo 📸"></image-slot>
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Smashdown 2.0</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 26m trapdoor free-fall to a hydroplane run-out.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 122 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-drop-capsule.webp" alt="The Drop at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">The Drop</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 17.5m inner-tube ride with light bursts and a 9m final drop.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">all ages</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-boomerang-raft.webp" alt="Boomerang at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Boomerang</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A translucent tube into a giant quarter-pipe wall ride.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 122 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-green-mat-slide.webp" alt="Fast n Fierce at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Fast n Fierce</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">Two open speed slides side by side — pure velocity.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 120 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              
+              <image-slot id="r-doubletwist" shape="rect" placeholder="drop a photo 📸"></image-slot>
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Double Twist</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A trapdoor start into one of the wildest slide paths anywhere.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 122 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-green-loops.webp" alt="Green Vipers at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Green Vipers</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">Twin green snakes twisting through the trees from 20m up.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 100 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              
+              <image-slot id="r-pipeline" shape="rect" placeholder="drop a photo 📸"></image-slot>
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Pipeline</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A 150m banking tube at 3.5G with a Kuta skyline view.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 100 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-twin-racers.webp" alt="Twin Racers at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#FF3D7F;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">EXTREME</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">Twin Racers</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A head-first mat race — will you emerge victorious?</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 110 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    
+      <div style="margin:0 0 18px">
+        <h2 style="font-family:'Unbounded';font-weight:900;font-size:clamp(26px,4vw,42px);letter-spacing:-.03em;margin:0 0 4px">🎯 Attractions</h2>
+        <p style="margin:0;font-size:16px;font-weight:500;color:#4a4763">Not a slide — but unmissable.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;margin-bottom:52px">
+        
+          <div onClick="()=&gt;this.open(r.slotId)" style="border:3px solid #12112B;border-radius:26px;overflow:hidden;background:#fff;box-shadow:6px 6px 0 #12112B;display:flex;flex-direction:column;cursor:pointer">
+            <div style="position:relative;height:200px;background:#EEF7F8">
+              <img src="uploads/waterbom-flowrider.webp" alt="FlowRider at Waterbom Bali" style="width:100%;height:100%;object-fit:cover;display:block">
+              
+              <span style="position:absolute;top:12px;left:12px;background:#7C5CFF;color:#12112B;border:2.5px solid #12112B;border-radius:999px;padding:5px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;box-shadow:2px 2px 0 #12112B;pointer-events:none">ATTRACTION</span>
+            </div>
+            <div style="padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1">
+              <h3 style="font-family:'Unbounded';font-weight:800;font-size:22px;margin:0;letter-spacing:-.02em">FlowRider</h3>
+              <p style="margin:0;font-size:15px;font-weight:500;color:#4a4763;flex:1">A perpetual standing wave for body- and flow-boarding.</p>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+                <span style="background:#FFF3E0;border:2px solid #12112B;border-radius:999px;padding:3px 10px;font-family:'Space Mono';font-size:11px;font-weight:700">min 130 cm</span>
+                <span style="font-family:'Unbounded';font-weight:800;font-size:13px;color:#FF3D7F">Details →</span>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    
   </section>
 
   <section style="background:#12D6DF;border-top:4px solid #12112B;border-bottom:4px solid #12112B;padding:56px 22px">
@@ -116,36 +396,7 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
   </section>
 
   <!-- RIDE DETAIL MODAL -->
-  <sc-if value="{{ sel }}" hint-placeholder-val="x">
-    <div onClick="{{ close }}" style="position:fixed;inset:0;z-index:1000;background:rgba(18,17,43,.6);backdrop-filter:blur(6px);display:flex;align-items:flex-start;justify-content:center;padding:28px 16px;overflow:auto">
-      <div onClick="{{ stop }}" style="width:100%;max-width:600px;background:#FFF3E0;border:4px solid #12112B;border-radius:30px;box-shadow:10px 10px 0 #12112B;overflow:hidden;margin:auto;animation:pop .25s ease">
-        <div style="position:relative;background:{{ sel.accent }};border-bottom:3px solid #12112B;padding:22px 24px">
-          <button onClick="{{ close }}" style="position:absolute;top:16px;right:16px;width:34px;height:34px;border:2.5px solid #12112B;background:#fff;border-radius:50%;font-size:18px;font-weight:800;cursor:pointer;line-height:1">✕</button>
-          <span style="display:inline-block;background:#12112B;color:#fff;border-radius:999px;padding:4px 12px;font-family:'Space Mono';font-weight:700;font-size:11px;letter-spacing:.06em">{{ sel.tag }}</span>
-          <h3 style="font-family:'Unbounded';font-weight:900;font-size:clamp(28px,5vw,40px);letter-spacing:-.03em;margin:10px 0 0;color:#12112B">{{ sel.name }}</h3>
-        </div>
-        <div style="padding:24px">
-          <sc-if value="{{ sel.hasStats }}" hint-placeholder-val="{{ true }}">
-            <div style="display:flex;gap:18px;flex-wrap:wrap;justify-content:center;margin-bottom:22px">
-              <div style="text-align:center"><div style="width:78px;height:78px;border-radius:50%;background:{{ sel.drenchRing }};display:grid;place-items:center;margin:0 auto"><div style="width:58px;height:58px;border-radius:50%;background:#fff;display:grid;place-items:center;font-family:'Unbounded';font-weight:900;font-size:22px">{{ sel.drench }}</div></div><div style="font-family:'Space Mono';font-size:12px;font-weight:700;margin-top:6px;letter-spacing:.05em">DRENCH</div></div>
-              <div style="text-align:center"><div style="width:78px;height:78px;border-radius:50%;background:{{ sel.thrillRing }};display:grid;place-items:center;margin:0 auto"><div style="width:58px;height:58px;border-radius:50%;background:#fff;display:grid;place-items:center;font-family:'Unbounded';font-weight:900;font-size:22px">{{ sel.thrill }}</div></div><div style="font-family:'Space Mono';font-size:12px;font-weight:700;margin-top:6px;letter-spacing:.05em">THRILL</div></div>
-              <div style="text-align:center"><div style="width:78px;height:78px;border-radius:50%;background:{{ sel.speedRing }};display:grid;place-items:center;margin:0 auto"><div style="width:58px;height:58px;border-radius:50%;background:#fff;display:grid;place-items:center;font-family:'Unbounded';font-weight:900;font-size:22px">{{ sel.speed }}</div></div><div style="font-family:'Space Mono';font-size:12px;font-weight:700;margin-top:6px;letter-spacing:.05em">SPEED</div></div>
-              <sc-if value="{{ sel.minHeight }}" hint-placeholder-val="x">
-                <div style="text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;border-left:2px dashed #ccc;padding-left:18px"><div style="font-size:30px">🧍</div><div style="font-family:'Unbounded';font-weight:900;font-size:24px;color:#FF3D7F">{{ sel.minHeight }}</div><div style="font-family:'Space Mono';font-size:11px;color:#4a4763">min height</div></div>
-              </sc-if>
-            </div>
-          </sc-if>
-          <sc-for list="{{ sel.paras }}" as="p" hint-placeholder-count="2">
-            <p style="font-size:16px;line-height:1.6;font-weight:500;color:#3a3752;margin:0 0 12px">{{ p }}</p>
-          </sc-for>
-          <sc-if value="{{ sel.rules }}" hint-placeholder-val="x">
-            <div style="background:#fff;border:2.5px solid #12112B;border-radius:16px;padding:14px 16px;margin-top:6px"><div style="font-family:'Space Mono';font-size:11px;font-weight:700;color:#4a4763;letter-spacing:.06em;margin-bottom:4px">RULES &amp; LIMITS</div><div style="font-size:14px;font-weight:600;color:#12112B">{{ sel.rules }}</div></div>
-          </sc-if>
-          <a href="/tickets#book" style="display:block;text-align:center;margin-top:20px;background:#FF3D7F;color:#fff;border:3px solid #12112B;border-radius:999px;padding:14px;font-family:'Unbounded';font-weight:800;font-size:15px;box-shadow:4px 4px 0 #12112B">BOOK YOUR DAY →</a>
-        </div>
-      </div>
-    </div>
-  </sc-if>
+  
 
   <footer style="background:#12112B;color:#fff;border-top:4px solid #12112B;padding:48px 22px 36px">
     <div style="max-width:1080px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:26px">
@@ -156,7 +407,7 @@ nav.nav-open>*:not(a:first-child):not(.nav-burger){display:flex !important;flex-
         <div style="display:flex;flex-direction:column;gap:8px"><span style="font-family:'Space Mono';color:#12D6DF;font-size:13px">HELP</span><a href="/faq" style="color:#fff">FAQ</a><a href="/contact" style="color:#fff">Contact</a><a href="/terms" style="color:#fff">Terms</a></div>
       </div>
     </div>
-    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-08-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
+    <div style="max-width:1080px;margin:28px auto 0;padding-top:18px;border-top:1.5px solid #2c2a4d;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#8b88a8;font-size:13px"><span>© 2026 Waterbom Bali tickets · Official ticket reseller · 🔒 Secure payments · Last updated: 2026-09-17</span><span style="display:flex;flex-direction:column;gap:2px;text-align:right"><span>Official Ticket Reseller: <a href="https://www.dubaiticketdeals.com" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">DubaiTicketDeals.com</a></span><span>Website &amp; Branding: <a href="https://brandsselect.co" target="_blank" rel="noopener" style="color:#12D6DF;font-weight:700">Brands Select</a></span></span></div>
   </footer>
 </div>
 </x-dc>
