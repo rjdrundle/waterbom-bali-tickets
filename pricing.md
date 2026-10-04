@@ -2,17 +2,17 @@
 
 Official e-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (authorised Waterbom Bali ticket reseller) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 5% off the order total.
 
-Last updated: 2026-08-17. Prices are subject to change; final price is confirmed at checkout.
+Last updated: 2026-10-05. Prices are subject to change; final price is confirmed at checkout.
 
 ## Single Day Pass — International Visitors
 
-- **Adult (12+)**: $128.57
+- **Adult (12+)**: $36
   - Full-day access to all slides and attractions
   - Instant QR e-voucher
   - Valid for selected visit date
   - Book at: https://waterbombalitickets.com/tickets
 
-- **Child (2–11)**: $101.00
+- **Child (2–11)**: $28
   - Full-day access to all slides and attractions
   - Instant QR e-voucher
   - Valid for selected visit date
@@ -23,12 +23,12 @@ Last updated: 2026-08-17. Prices are subject to change; final price is confirmed
 
 ## Single Day Pass — Indonesian Residents
 
-- **Adult Resident (KTP / KITAS)**: $75.51
+- **Adult Resident (KTP / KITAS)**: $21
   - Full-day access to all slides and attractions
   - Valid Indonesian ID required at gate
   - Book at: https://waterbombalitickets.com/tickets
 
-- **Child Resident (KTP / KITAS)**: $66.33
+- **Child Resident (KTP / KITAS)**: $18
   - Full-day access to all slides and attractions
   - Valid Indonesian ID required at gate
   - Book at: https://waterbombalitickets.com/tickets
@@ -47,30 +47,30 @@ Last updated: 2026-08-17. Prices are subject to change; final price is confirmed
 
 ## Family Day Pass
 
-- **Family Day Pass — International**: $449.00
+- **Family Day Pass — International**: $124
   - 2 adults + 2 children (ages 2–11)
   - Full-day access for all four guests
   - Best value per person for families
   - Book at: https://waterbombalitickets.com/packages
 
-- **Family Day Pass — Indonesian Resident**: $265.31
+- **Family Day Pass — Indonesian Resident**: $74
   - 2 adults + 2 children (ages 2–11)
   - Valid Indonesian IDs required at gate
   - Book at: https://waterbombalitickets.com/packages
 
 ## Waterbom + Mason Elephant Park Combo
 
-- **Combo — Adult International**: $183.67
+- **Combo — Adult International**: $55
   - Full day at Waterbom Bali plus entry to Mason Elephant Park & Lodge
   - Instant QR e-vouchers for both parks
   - Book at: https://waterbombalitickets.com/packages
 
-- **Combo — Child International**: $136.73
+- **Combo — Child International**: $40
   - Full day at Waterbom Bali plus entry to Mason Elephant Park & Lodge
   - Instant QR e-vouchers for both parks
   - Book at: https://waterbombalitickets.com/packages
 
-- **Combo — Adult Indonesian Resident**: $96.00
+- **Combo — Adult Indonesian Resident**: $26
   - Full day at Waterbom Bali plus entry to Mason Elephant Park & Lodge
   - Valid Indonesian ID required at gate
   - Book at: https://waterbombalitickets.com/packages
