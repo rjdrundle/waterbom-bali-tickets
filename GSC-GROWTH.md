@@ -16,3 +16,10 @@ Auto-generated daily by gsc-growth-check.js. Each entry compares to the previous
   - "waterbom promo code" — 5 impr, position 53.2
   - "waterbom tickets" — 6 impr, position 59.7
 
+## 2026-10-05
+
+- Site totals (28d trailing): 0 clicks (+0), 96 impressions (+0) vs last run.
+
+**Moved down (investigate if on a page you rely on):**
+  - "waterbom bali ticket price": 60.0 → 63.0 (-3.0)
+
