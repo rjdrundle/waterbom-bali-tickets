@@ -23,3 +23,9 @@ Auto-generated daily by gsc-growth-check.js. Each entry compares to the previous
 **Moved down (investigate if on a page you rely on):**
   - "waterbom bali ticket price": 60.0 → 63.0 (-3.0)
 
+## 2026-10-06
+
+- Site totals (28d trailing): 0 clicks (+0), 89 impressions (-7) vs last run.
+
+- No significant query movement since last run.
+
