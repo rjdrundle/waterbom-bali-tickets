@@ -1,6 +1,6 @@
 # Waterbom Bali Tickets — Pricing Catalog 2026
 
-Official e-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (authorised Waterbom Bali ticket reseller) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 5% off the order total.
+Official e-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (authorised Waterbom Bali ticket reseller) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 25% off the order total.
 
 Last updated: 2026-10-05. Prices are subject to change; final price is confirmed at checkout.
 
@@ -87,7 +87,7 @@ Last updated: 2026-10-05. Prices are subject to change; final price is confirmed
 
 ## Promo Codes
 
-- **SPLASH5** — 5% off the entire order total
+- **SPLASH5** — 25% off the entire order total
   - Apply at secure checkout
   - One code per order
   - Official online bookings only
