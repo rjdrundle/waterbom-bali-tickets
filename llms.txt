@@ -2,7 +2,7 @@
 
 > Official online reseller of Waterbom Bali tickets, operated by DubaiTicketDeals.com and presented by Brands Select. Waterbom Bali is Asia's #1 water park, located on Jl. Kartika Plaza in Kuta, Bali. Open 9:00 AM – 6:00 PM daily. Book secure e-tickets online with instant QR vouchers and promo-code discounts.
 >
-> Last updated: 2026-08-17.
+> Last updated: 2026-10-12.
 
 This site provides the full Waterbom Bali ticketing experience: live prices, a secure booking widget, promo codes, ride guides, packages, planning information, guest reviews and FAQs.
 
@@ -18,11 +18,11 @@ This site provides the full Waterbom Bali ticketing experience: live prices, a s
 ## Ticket prices (2026, USD)
 See the complete machine-readable catalog at https://waterbombalitickets.com/pricing.md.
 
-- Single Day Pass — International: Adult (12+) $128.57, Child (2–11) $101.00
-- Single Day Pass — Indonesian resident (valid KTP/KITAS): Adult $75.51, Child $66.33
+- Single Day Pass — International: Adult (12+) $36, Child (2–11) $28
+- Single Day Pass — Indonesian resident (valid KTP/KITAS): Adult $21, Child $18
 - Sunset Pass: Adult $75.51, Child $60.00
-- Family Day Pass (2 adults + 2 children) — International $449.00; Resident $265.31
-- Waterbom + Mason Elephant Park combo — International: Adult $183.67, Child $136.73; Resident Adult $96.00
+- Family Day Pass (2 adults + 2 children) — International $124; Resident $74
+- Waterbom + Mason Elephant Park combo — International: Adult $55, Child $40; Resident Adult $26
 - VIP Cabana: add-on at checkout
 - Groups / birthdays / corporate: custom quote for 10+ guests
 
