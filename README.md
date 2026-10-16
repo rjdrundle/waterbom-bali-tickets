@@ -50,5 +50,5 @@ vercel --prod
 
 - Internal page links use clean routes (`/tickets`, `/contact`, etc.).
 - The ticket checkout is handled entirely by the embedded TravelDesk widget (`https://embedded-widget.azurewebsites.net/traveldesk-widget.js`, key `c0d7479b-4467-4027-960e-6be70cd54fa2`, tour id `499`). No payment code lives in this repo.
-- Promo code `SPLASH5` gives 5% off. All prices shown are in USD and should be confirmed before launch.
+- Promo code `SPLASH5` gives 25% off. All prices shown are in USD and should be confirmed before launch.
 - If you add a `Content-Security-Policy`, allow the TravelDesk script origin `https://embedded-widget.azurewebsites.net` and any frame/connect origins the widget requires.
