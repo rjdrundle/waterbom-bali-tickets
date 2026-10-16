@@ -1,8 +1,8 @@
 # Waterbom Bali Tickets — Pricing Catalog 2026
 
-Official e-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (authorised Waterbom Bali ticket reseller) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 25% off the order total.
+E-ticket pricing for Waterbom Bali, sold by DubaiTicketDeals.com (independent Waterbom Bali ticket reseller, not operated by or affiliated with Waterbom Bali) and presented by Brands Select. Prices are shown in USD. Apply promo code **SPLASH5** at checkout for 25% off the order total.
 
-Last updated: 2026-10-05. Prices are subject to change; final price is confirmed at checkout.
+Last updated: 2026-10-16. Prices are subject to change; final price is confirmed at checkout. Sunset Pass pricing below is under internal review — confirm at checkout before relying on it.
 
 ## Single Day Pass — International Visitors
 
@@ -90,12 +90,12 @@ Last updated: 2026-10-05. Prices are subject to change; final price is confirmed
 - **SPLASH5** — 25% off the entire order total
   - Apply at secure checkout
   - One code per order
-  - Official online bookings only
+  - Online bookings only
   - See details at: https://waterbombalitickets.com/promo-codes
 
 ## Included with every ticket
 
-- Full-day access to all 17 slides and attractions
+- Full-day access to all 22+ slides and attractions
 - Lazy river, FlowRider, kids zones and AquaPlay
 - Free Splash Band wristband (refundable deposit required)
 - 256-bit SSL secure checkout
@@ -120,6 +120,6 @@ Last updated: 2026-10-05. Prices are subject to change; final price is confirmed
 
 ## Reseller & support
 
-- Official ticket reseller: DubaiTicketDeals.com
+- Independent ticket reseller: DubaiTicketDeals.com
 - Website & branding: Brands Select (brandsselect.co)
 - Customer support: https://waterbombalitickets.com/contact

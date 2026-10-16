@@ -1,16 +1,15 @@
 # Waterbom Bali Tickets
 
-> Official online reseller of Waterbom Bali tickets, operated by DubaiTicketDeals.com and presented by Brands Select. Waterbom Bali is Asia's #1 water park, located on Jl. Kartika Plaza in Kuta, Bali. Open 9:00 AM – 6:00 PM daily. Book secure e-tickets online with instant QR vouchers and promo-code discounts.
+> Independent online reseller of Waterbom Bali tickets, operated by DubaiTicketDeals.com and presented by Brands Select. Not operated by or affiliated with Waterbom Bali. Waterbom Bali is Asia's #1 water park, located on Jl. Kartika Plaza in Kuta, Bali. Open 9:00 AM – 6:00 PM daily. Book secure e-tickets online with instant QR vouchers and promo-code discounts.
 >
-> Last updated: 2026-08-17.
+> Last updated: 2026-10-16.
 
-This site provides the full Waterbom Bali ticketing experience: live prices, a secure booking widget, promo codes, ride guides, packages, planning information, guest reviews and FAQs.
+This site provides the full Waterbom Bali ticketing experience: live prices, a secure booking widget, promo codes, ride guides, packages, planning information and FAQs.
 
 ## Key facts
 - Location: Jl. Kartika Plaza, Kuta, Badung, Bali 80361, Indonesia (about 10 minutes from Ngurah Rai / DPS airport)
 - Hours: 9:00 AM – 6:00 PM every day; closed only on Nyepi (Balinese Day of Silence)
-- Rating: 4.8/5 across 25,000+ reviews; ranked #1 water park in Asia by TripAdvisor Travellers' Choice
-- Attractions: 17 named slides and attractions including The Climax, The Constrictor, Smashdown 2.0, Python, Twin Racers, Lazy River, FlowRider, and a kids zone
+- Attractions: 22+ named slides and attractions including The Climax, The Constrictor, Smashdown 2.0, Python, Twin Racers, Lazy River, FlowRider, and a kids zone
 - Cashless park: tap-to-pay Splash Band for food, drinks, lockers and merchandise
 - Payment: 256-bit SSL, 3D-Secure (Visa, Mastercard, Amex); instant QR e-voucher delivered by email
 - Currency: USD. Children are ages 2–11; infants under 2 enter free.
@@ -18,17 +17,17 @@ This site provides the full Waterbom Bali ticketing experience: live prices, a s
 ## Ticket prices (2026, USD)
 See the complete machine-readable catalog at https://waterbombalitickets.com/pricing.md.
 
-- Single Day Pass — International: Adult (12+) $128.57, Child (2–11) $101.00
-- Single Day Pass — Indonesian resident (valid KTP/KITAS): Adult $75.51, Child $66.33
-- Sunset Pass: Adult $75.51, Child $60.00
-- Family Day Pass (2 adults + 2 children) — International $449.00; Resident $265.31
-- Waterbom + Mason Elephant Park combo — International: Adult $183.67, Child $136.73; Resident Adult $96.00
+- Single Day Pass — International: Adult (12+) $36, Child (2–11) $28
+- Single Day Pass — Indonesian resident (valid KTP/KITAS): Adult $21, Child $18
+- Sunset Pass: pricing under review — see /tickets for the current live price before booking
+- Family Day Pass (2 adults + 2 children) — International $124; Resident $74
+- Waterbom + Mason Elephant Park combo — International: Adult $55, Child $40; Resident Adult $26
 - VIP Cabana: add-on at checkout
 - Groups / birthdays / corporate: custom quote for 10+ guests
 
 ## Promo code (2026)
 - **SPLASH5** — 25% off the entire order total
-- Apply at secure checkout; one code per order; official online bookings only.
+- Apply at secure checkout; one code per order; online bookings only.
 
 ## How to book
 1. Visit https://waterbombalitickets.com/tickets
@@ -43,24 +42,24 @@ See the complete machine-readable catalog at https://waterbombalitickets.com/pri
 - Splash Band deposit is required for the cashless wristband and refunded on exit.
 
 ## Pages
-- [Home](https://waterbombalitickets.com/): Overview, featured rides, promo codes, reviews and booking widget
+- [Home](https://waterbombalitickets.com/): Overview, featured rides, promo codes and booking widget
 - [Tickets & prices](https://waterbombalitickets.com/tickets): Full 2026 price table and secure booking widget
 - [Promo codes](https://waterbombalitickets.com/promo-codes): Working discount codes and how to redeem
 - [Rides](https://waterbombalitickets.com/rides): Every slide with thrill levels, height limits and descriptions
 - [Packages](https://waterbombalitickets.com/packages): Family, combo, cabana, group and birthday options
 - [Plan your visit](https://waterbombalitickets.com/plan-your-visit): Hours, exact location, directions from airport/Seminyak/Ubud, best time to visit, what to bring
-- [Reviews](https://waterbombalitickets.com/reviews): Ratings, guest experiences and honest verdict
+- [Reviews](https://waterbombalitickets.com/reviews): Guest highlights and honest verdict
 - [Gallery](https://waterbombalitickets.com/gallery): Photos of the park, slides and food
 - [FAQ](https://waterbombalitickets.com/faq): Complete help center for tickets, prices, promo codes, rules and payment
 - [Guides](https://waterbombalitickets.com/guides): Insider tips and itineraries
-- [About](https://waterbombalitickets.com/about): Park story, sustainability, stats and full guide
+- [About](https://waterbombalitickets.com/about): Park story and ticketing guide, operated by DubaiTicketDeals.com
 - [Contact](https://waterbombalitickets.com/contact): Support and group enquiries
 - [Terms](https://waterbombalitickets.com/terms): Terms and conditions
 
 ## Structured data
-Every key page includes schema.org JSON-LD: Product, Offer, AggregateRating, Review, FAQPage, ItemList, TouristAttraction, Article and Blog.
+Key pages include schema.org JSON-LD: Product, Offer, FAQPage, ItemList, TouristAttraction, Article, BreadcrumbList.
 
 ## Contact
-- Official ticket reseller: DubaiTicketDeals.com
+- Independent ticket reseller: DubaiTicketDeals.com
 - Website & branding: Brands Select (https://brandsselect.co)
-- Support: https://waterbombalitickets.com/contact
+- Support: support@dubaiticketdeals.com or https://waterbombalitickets.com/contact
