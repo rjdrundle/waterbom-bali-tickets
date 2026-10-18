@@ -439,10 +439,12 @@ class Component extends DCLogic {
     if(document.getElementById('td-embed-script')) return;
     const s=document.createElement('script');
     s.id='td-embed-script';
+    s.async=false;
     s.src='https://embedded-widget.azurewebsites.net/traveldesk-widget.js';
     s.setAttribute('data-traveldesk-key','c0d7479b-4467-4027-960e-6be70cd54fa2');
     s.setAttribute('data-tour-id','499');
-    document.body.appendChild(s);
+    const mount=document.getElementById('traveldesk-widget');
+    (mount ? mount.parentNode : document.body).insertBefore(s, mount ? mount.nextSibling : null);
   }
 
   codes = [{code:'SPLASH5', label:'25% off everything'}];
