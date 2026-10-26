@@ -18,3 +18,17 @@
 1. Play and Go (Australian family travel) — https://playandgo.com.au/waterbom-park-best-water-park-asia-bali-guide-families/ — ranks for Waterbom family guides. Draft: "Hi, loved your Waterbom family guide. We run waterbombalitickets.com, an independent reseller with a plain-English price table and promo-code comparison. If useful for readers checking current ticket prices, you're welcome to link to it. Happy to flag any outdated details in your guide too."
 2. Little Steps Asia — https://littlestepsasia.com/bali/play/top-things-to-do-with-kids/best-waterparks — "Best Waterparks" roundup. Draft: "Hi team, your Bali waterparks list is a great resource. We maintain an up-to-date Waterbom ticket price and package breakdown (waterbombalitickets.com/tickets) that might be a handy reference for parents comparing options. Would you consider adding it?"
 3. Thrifty Family Travels — https://thriftyfamilytravels.com/best-things-to-do-in-bali-with-kids/ — budget-minded Bali-with-kids list. Draft: "Hi, your Bali-with-kids list is useful for budget planning. Our promo code and ticket comparison page (waterbombalitickets.com/promo-codes) may help readers save on Waterbom entry — happy to share if you'd like to reference it."
+
+## 2026-10-26
+**Checked:** live fetch again NOT possible (www.waterbombalitickets.com -> ENOTFOUND from the routine's egress). Repo unchanged since the 10-19 audit (only the log commit), so repo-based findings from 10-19 still stand. Live 404s/external links still unverified — allow the host in the environment network policy to enable live checks.
+
+**Fixed/deployed:** nothing (no new clear bugs).
+
+**Still-open flags from 10-19 (not repeated as new):** sitemap/llms.txt/pricing.md lastmod 2026-10-16 vs. later footer-disclaimer and TravelDesk changes; Sunset Pass $75.51/$60 under review; zero-price cabana/group feed rows.
+- New observation: third-party listings show slide counts varying (15–28) across sources; llms.txt says "22+ named slides" — confirm against the park's current official count (copy rec, not changed).
+
+**Backlink / outreach drafts (not sent):**
+1. Hotels.com Bali waterparks guide — https://www.hotels.com/go/indonesia/best-bali-waterparks — high-visibility roundup. Draft: "Hi, your Bali waterparks guide is helpful. We maintain a current Waterbom ticket price and promo comparison at waterbombalitickets.com/tickets; happy to be a reference if you update the Waterbom section." (Low odds; large publisher.)
+2. Finns Beach Club "Best Water Parks Bali" — https://finnsbeachclub.com/guides/best-water-parks-bali/ — Draft: "Hi, we liked your Bali water parks guide. Our independent reseller site has an up-to-date Waterbom price table and visit-planning page (waterbombalitickets.com/plan-your-visit) that could be a useful link for readers booking ahead."
+3. Pick Your Trail — https://pickyourtrail.com/best-water-parks-in-bali — Draft: "Hi, your best water parks in Bali post ranks well for Waterbom. If helpful, our ticket and packages page (waterbombalitickets.com/packages) lists current options and could complement it."
+(Previously logged targets 10-19: Play and Go, Little Steps Asia, Thrifty Family Travels — still open.)
