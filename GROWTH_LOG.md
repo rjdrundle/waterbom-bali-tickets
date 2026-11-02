@@ -32,3 +32,16 @@
 2. Finns Beach Club "Best Water Parks Bali" — https://finnsbeachclub.com/guides/best-water-parks-bali/ — Draft: "Hi, we liked your Bali water parks guide. Our independent reseller site has an up-to-date Waterbom price table and visit-planning page (waterbombalitickets.com/plan-your-visit) that could be a useful link for readers booking ahead."
 3. Pick Your Trail — https://pickyourtrail.com/best-water-parks-in-bali — Draft: "Hi, your best water parks in Bali post ranks well for Waterbom. If helpful, our ticket and packages page (waterbombalitickets.com/packages) lists current options and could complement it."
 (Previously logged targets 10-19: Play and Go, Little Steps Asia, Thrifty Family Travels — still open.)
+
+## 2026-11-02
+**Checked:** live fetch again NOT possible (curl to www.waterbombalitickets.com returns no connection from the routine's egress; root, /robots.txt, /llms.txt all failed). Repo is unchanged since the 10-26 audit (only log commits since 10-18), so the repo-based results from 10-19 still stand. Live 404s/external links remain unverified.
+
+**Fixed/deployed:** nothing (no new clear bugs).
+
+**Still-open flags (not repeated as new):** sitemap/llms.txt/pricing.md say 2026-10-16 (footer disclaimer + TravelDesk changes landed 10-18, still unreflected; ~2 weeks stale now); Sunset Pass $75.51/$60 under review; zero-price cabana/group feed rows; Reviews meta description short (98 chars); slide-count "22+" unverified.
+
+**Backlink / outreach drafts (not sent):**
+1. Klook family Bali blog — https://www.klook.com/blog/family-friendly-bali-activities/ — high-traffic roundup that features Waterbom. Draft: "Hi, your family-friendly Bali guide is a helpful read. We run waterbombalitickets.com, an independent Waterbom ticket reseller with a plain price table and promo comparison. If readers want to compare entry options, you're welcome to reference it." (Low odds: Klook sells tickets itself.)
+2. Tripcanvas Waterbom page — https://indonesia.tripcanvas.co/bali/waterbom-bali/ — dedicated Waterbom guide. Draft: "Hi, we liked your Waterbom guide. Our site (waterbombalitickets.com/plan-your-visit) has a visit-planning page and current ticket breakdown that could complement it for readers; happy to flag any outdated details too."
+3. Villanovo Bali with kids guide — https://www.villanovo.com/guides/indonesia/bali/activities-with-children — villa-rental activity guide. Draft: "Hi, your Bali activities-with-children guide is great for families. If you'd like a Waterbom ticket reference for guests, waterbombalitickets.com/tickets keeps current prices and packages."
+(Earlier targets from 10-19 and 10-26 remain open.)
