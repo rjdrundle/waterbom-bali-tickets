@@ -60,3 +60,16 @@
 2. Out and About With Kids — https://outandaboutwithkids.com.au/?p=41310 — Draft: "Hi, your Waterbom family guide is thorough. Our visit-planning page (waterbombalitickets.com/plan-your-visit) covers families' practical questions and could complement it — happy to be considered."
 3. Glam Adelaide (13 tips for Waterbom) — https://glamadelaide.com.au/our-top-13-tips-for-waterbom-park-in-bali/ — Draft: "Hi, great Waterbom tips. If readers want to compare current ticket options, waterbombalitickets.com/tickets keeps them listed; glad to share if useful."
 (Earlier targets from 10-19 to 11-02 remain open.)
+
+## 2026-11-16
+**Checked:** live fetch again NOT possible (root, /robots.txt, /sitemap.xml, /llms.txt all return no connection from the routine's egress). Repo unchanged since the 11-09 audit (only the log commit), so 11-09 repo-based results stand. Live 404s/external links unverified.
+
+**Fixed/deployed:** nothing (no new clear bugs).
+
+**Still-open flags (not repeated as new):** homepage $35/$28 (resident $19/$16) vs $36/$28 ($21/$18) in Tickets/About/FAQ/llms.txt/pricing.md/merchant feed — needs human decision; sitemap/llms.txt/pricing.md lastmod 2026-10-16 (~4.5 weeks stale vs. 11-05 homepage change); Sunset Pass $75.51/$60 under review; zero-price cabana/group feed rows; Reviews meta description short (98 chars); "22+ slides" unverified.
+
+**Backlink / outreach drafts (not sent):**
+1. The Honey Combers — https://thehoneycombers.com/bali/best-things-to-do-with-kids-in-bali/ — Bali kids roundup featuring Waterbom. Draft: "Hi, your Bali-with-kids guide is a go-to for parents. We run waterbombalitickets.com, an independent Waterbom reseller with a plain price table and visit-planning page. If you refresh the Waterbom section, it may be a handy reference."
+2. Honey Kids Asia — https://honeykidsasia.com/bali-with-kids-things-to-do/ — Draft: "Hi, we enjoy your Bali with kids list. Our Waterbom packages page (waterbombalitickets.com/packages) compares current options for families and could complement it; happy to be considered."
+3. Bush Walking Blog — https://bushwalkingblog.com.au/waterbom-bali-waterpark-guide-indonesia — Waterbom guide with ticket-saving tips. Draft: "Hi, your Waterbom guide's booking tips are useful. Our promo-code page (waterbombalitickets.com/promo-codes) tracks current offers and might suit readers looking to save."
+(Earlier targets from 10-19 to 11-09 remain open.)
