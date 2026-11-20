@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
+Disallow: /*.dc.html$
+Disallow: /GROWTH_LOG.md
+Disallow: /GSC-GROWTH.md
+Disallow: /DEPLOY-claude-code-prompt.md
+Disallow: /README.md
 
 # AI crawlers — explicitly welcomed
 User-agent: GPTBot

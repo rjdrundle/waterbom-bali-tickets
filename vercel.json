@@ -1,6 +1,27 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/Waterbom 2.0.dc.html", "destination": "/", "statusCode": 308 },
+    { "source": "/Tickets.dc.html", "destination": "/tickets", "statusCode": 308 },
+    { "source": "/Rides.dc.html", "destination": "/rides", "statusCode": 308 },
+    { "source": "/Gallery.dc.html", "destination": "/gallery", "statusCode": 308 },
+    { "source": "/Promo Codes.dc.html", "destination": "/promo-codes", "statusCode": 308 },
+    { "source": "/Packages.dc.html", "destination": "/packages", "statusCode": 308 },
+    { "source": "/Plan Your Visit.dc.html", "destination": "/plan-your-visit", "statusCode": 308 },
+    { "source": "/About Waterbom Bali.dc.html", "destination": "/about", "statusCode": 308 },
+    { "source": "/Reviews.dc.html", "destination": "/reviews", "statusCode": 308 },
+    { "source": "/FAQ.dc.html", "destination": "/faq", "statusCode": 308 },
+    { "source": "/Guides.dc.html", "destination": "/guides", "statusCode": 308 },
+    { "source": "/Contact.dc.html", "destination": "/contact", "statusCode": 308 },
+    { "source": "/Terms.dc.html", "destination": "/terms", "statusCode": 308 },
+    { "source": "/:path*.dc.html", "destination": "/", "statusCode": 308 },
+    { "source": "/GROWTH_LOG.md", "destination": "/", "statusCode": 308 },
+    { "source": "/GSC-GROWTH.md", "destination": "/", "statusCode": 308 },
+    { "source": "/DEPLOY-claude-code-prompt.md", "destination": "/", "statusCode": 308 },
+    { "source": "/README.md", "destination": "/", "statusCode": 308 }
+  ],
   "rewrites": [
     { "source": "/", "destination": "/Waterbom 2.0.dc.html" },
     { "source": "/tickets", "destination": "/Tickets.dc.html" },

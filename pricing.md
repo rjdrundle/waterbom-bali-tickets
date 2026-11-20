@@ -95,7 +95,7 @@ Last updated: 2026-10-16. Prices are subject to change; final price is confirmed
 
 ## Included with every ticket
 
-- Full-day access to all 22+ slides and attractions
+- Full-day access to all 17 slides and attractions
 - Lazy river, FlowRider, kids zones and AquaPlay
 - Free Splash Band wristband (refundable deposit required)
 - 256-bit SSL secure checkout
