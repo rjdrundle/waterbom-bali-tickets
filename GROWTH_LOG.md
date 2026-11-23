@@ -73,3 +73,18 @@
 2. Honey Kids Asia — https://honeykidsasia.com/bali-with-kids-things-to-do/ — Draft: "Hi, we enjoy your Bali with kids list. Our Waterbom packages page (waterbombalitickets.com/packages) compares current options for families and could complement it; happy to be considered."
 3. Bush Walking Blog — https://bushwalkingblog.com.au/waterbom-bali-waterpark-guide-indonesia — Waterbom guide with ticket-saving tips. Draft: "Hi, your Waterbom guide's booking tips are useful. Our promo-code page (waterbombalitickets.com/promo-codes) tracks current offers and might suit readers looking to save."
 (Earlier targets from 10-19 to 11-09 remain open.)
+
+## 2026-11-23
+**Checked:** live fetch again NOT possible (root, /robots.txt, /sitemap.xml, /llms.txt, /pricing.md all return no connection from the routine's egress). Repo audit: 13 pages — titles 41–57 chars, descriptions 98–153, one H1 each, all JSON-LD parses (Terms has none), `node --check api/*.js` clean. Live 404s/external links unverified.
+
+**Resolved since last run:** the homepage $35/$19 vs $36/$21 price flag from 11-09/11-16 was fixed by the human in a626166/29da8b5; `$35`/`$19` no longer appear in HTML, llms.txt, or pricing.md; Merchant feed matches ($36/$28 intl, $21/$18 resident). "22+ slides" replaced with 17 everywhere.
+
+**Fixed/deployed:** dc48f21 — sitemap.xml lastmod was 2026-10-16 for all URLs; set to 2026-11-20 for pages changed that day (/, /tickets, /rides, /gallery, /about) and 2026-10-18 for the rest (last git change); llms.txt and pricing.md "Last updated" 2026-10-16 -> 2026-11-20.
+
+**Still-open flags (not changed):** Sunset Pass $75.51/$60 under review; zero-price cabana/group feed rows; Reviews meta description short (98 chars). Note: sitemap/llms/pricing dates are hand-maintained — bump them whenever pages change.
+
+**Backlink / outreach drafts (not sent):**
+1. Out and About With Kids — "21 amazing things to do in Bali with kids" — https://outandaboutwithkids.com.au/?p=110104 — Draft: "Hi, your Bali-with-kids roundup is a great resource. We run waterbombalitickets.com, an independent Waterbom reseller with a plain price table and visit-planning page. If you refresh the Waterbom entry, it may be a handy reference for readers."
+2. Jetstar "Bali for kids: best things to do" — https://www.jetstar.com/nz/en/inspiration/articles/indonesia-best-of-bali-for-kids — Draft (low odds, large brand): "Hi, we maintain an up-to-date Waterbom ticket and package breakdown (waterbombalitickets.com/packages) that could complement your Bali-for-kids guide."
+3. The Smart Local — Bali family things to do — https://thesmartlocal.com/read/things-to-do-in-bali-family/amp/ — Draft: "Hi, enjoyed your Bali family guide. Our Waterbom visit-planning page (waterbombalitickets.com/plan-your-visit) covers practical questions for parents and might suit a link if you update the Waterbom section."
+(Search results mostly dated 2018–2022 articles; check each is still maintained before sending. Earlier targets from 10-19 to 11-16 remain open.)
